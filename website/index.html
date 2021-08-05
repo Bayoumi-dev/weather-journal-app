@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Main Template CSS File-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- FavIcon -->
+    <link rel="icon" href="img/favicon.png" sizes="16x16">
+
+    <title>Weather Journal App</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+            <!-- Onsubmit property To prevent the page do reload -->
+            <form action="" onsubmit="return false">
+                <label for="zip">Zip Code</label>
+                <input id="zip" type="text" placeholder="US">
+                <div class="to-generate">
+                    <label for="feeling">How are you feeling today?</label>
+                    <textarea name="" id="feeling" cols="10" rows="2"></textarea>
+                    <div id="error"></div>
+                    <button id="generate">Generate</button>
+                </div>
+            </form>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing ">
+        <div class="background"></div>
+        <main>
+            <div class="container">
+                <section class="weather-today">
+                    <div class="description">
+                        <img id="icon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
+                        <div class="des" id="wdes">Clear Sky</div>
+                    </div>
+                    <div class="weather">
+                        <div class="main-temp">
+                            <div class="temp-today">
+                                <div class="today">TODAY</div>
+                                <div class="temp" id="temp">00°</div>
+                            </div>
+                            <div class="deg-temp">
+                                <div class="deg">C</div>
+                                <div class="temp-min-max" id="temp-min-max">0° / 0°</div>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="feel">Feels Like<span id="feel-like">-</span></div>
+                            <div class="pressure">Pressure<span id="pressure">-</span></div>
+                            <div class="humidity">Humidity<span id="humidity">-</span></div>
+                            <div class="visibility">Visibility<span id="visibility">-</span></div>
+                            <div class="wind">Speed Wind<span id="wind">-</span></div>
+                            <div class="clouds">Clouds<span id="clouds">-</span></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec2">
+                    <div class="date">Thu Jan 01 1970</div>
+                    <div class="city">City Name <span>/ US</span></div>
+                    <div class="y-feel">You're Feeling</div>
+                    <div class="feeling" id="content">Nice Day</div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <!-- End Landing -->
+    <!--JavaScript File-->
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
