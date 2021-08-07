@@ -5,7 +5,7 @@
 - [General info]
 - [Languages]
 - [Runtime Environment & Dependencies]
-- [Install] (How it’s work)
+- [Install] (How it works)
 - [UI]
 - [Sources]
 
@@ -29,7 +29,7 @@ The purpose of this project is to create an asynchronous web app that uses Web A
 - Body Parser
 - CORS
 
-## Install (How it’s work)
+## Install (How it works)
 
 You must install `Node js` on the local machine, 
 then install the dependencies used in this project. Run the command in the root
