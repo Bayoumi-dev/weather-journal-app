@@ -6,7 +6,6 @@
 - [Languages]
 - [Runtime Environment & Dependencies]
 - [Install] (How it works)
-- [UI]
 - [Sources]
 
 ## General info
@@ -41,9 +40,6 @@ Start the server:
 node server.js 
 ```
 
-## UI
-
-![UI](https://github.com/Bayoumi-dev/Weather-Journal-App/blob/main/website/img/Weather%20App.jpg)
 
 ## Sources
 
